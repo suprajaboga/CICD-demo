@@ -9,7 +9,7 @@ phases:
   install:
     runtime-versions:
       python: 3.11
-  pre-build:
+  pre_build:
     commands:
       - echo "Installing dependencies..."
       - pip install -r simple-python-app/requirements.txt
